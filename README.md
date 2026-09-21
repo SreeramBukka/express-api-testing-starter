@@ -44,8 +44,8 @@ A production-ready Express.js REST API template demonstrating automated integrat
 
 1. **Clone the repository:**
    ```bash
-   git clone <REPO_URL>
-   cd backend-testing
+   git clone https://github.com/PandaVerse09/express-api-testing-starter.git
+   cd express-api-testing-starter
    ```
 
 2. **Install dependencies:**

@@ -5,8 +5,12 @@
     "jest": "^30.4.2",
     "supertest": "^7.2.2"
   },
-  "name": "backend-testing",
+  "name": "express-api-testing-starter",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PandaVerse09/express-api-testing-starter.git"
+  },
   "description": "Express.js REST API with automated testing using Jest, Supertest, and request validation",
   "main": "server.js",
   "scripts": {
