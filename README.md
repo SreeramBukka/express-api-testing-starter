@@ -169,3 +169,27 @@ Snapshots:   0 total
 ## 📄 License
 
 This project is licensed under the ISC License.
+
+
+Tasks:
+1
+
+Add a GET endpoint
+Create GET /api/users/:id to return one user by ID. Return 404 if the user doesn't exist.
+
+2
+
+Improve input validation
+Validate user creation requests. Reject missing fields, invalid email addresses, and usernames shorter than three characters. Return clear error messages.
+
+3
+
+Add search and filtering
+Extend the users endpoint to support ?name=alex and ?email=example.com. Preserve existing behavior when no query parameters are provided.
+
+4
+
+Fix a bug
+Investigate why invalid request data can cause an unexpected server error. Find the root cause and fix it without changing unrelated functionality.
+
+
